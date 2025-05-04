@@ -41,7 +41,7 @@ export default function Why() {
                 {reasons.map((reason, index) => (
                     <div
                         key={index}
-                        className="bg-blue-700 hover:bg-blue-800 transition-all duration-300 ease-in-out p-6 flex flex-col rounded-lg gap-4 group"
+                        className="bg-blue-700 hover:bg-blue-800 focus:bg-blue-800 transition-all duration-300 ease-in-out p-6 flex flex-col rounded-lg gap-4 group"
                     >
                         <div className="flex items-center gap-3">
                             <div className="bg-yellow-400 text-blue-700 rounded-full p-3 flex items-center justify-center text-xl group-hover:bg-white">

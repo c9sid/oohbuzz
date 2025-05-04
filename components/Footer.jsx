@@ -1,6 +1,7 @@
 import { FaWhatsapp, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import { HiOutlineLocationMarker, HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
+import { HiOutlineCalculator, HiOutlineLocationMarker, HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 import { FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -61,6 +62,10 @@ export default function Footer() {
             {/* Bottom Bar */}
             <div className="border-t border-gray-700 mt-10 py-4 text-center text-sm text-gray-400">
                 © 2025 OOHBUZZ. All Rights Reserved.
+            </div>
+
+            <div className="fixed bottom-5 right-5 z-10 flex md:hidden">
+                <Link href={"#ad-estimate"} className="inline-flex gap-2 items-center bg-blue-600 hover:bg-blue-700 text-white rounded-md px-4 py-2 shadow-sm hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out"><HiOutlineCalculator /> GET ESTIMATE</Link>
             </div>
         </footer>
     );
