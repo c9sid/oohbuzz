@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" rx="20" fill="#EDF4FF"/>
+  <path d="M70 260 C30 200 50 100 140 80 C230 60 320 110 340 180 C360 250 200 300 140 280 Z"
+        fill="none" stroke="#3B82F6" stroke-width="2"/>
+
+  <!-- Billboard -->
+  <rect x="60" y="120" width="40" height="30" fill="#1f1f1f"/>
+  <rect x="75" y="150" width="10" height="30" fill="#555"/>
+
+  <!-- Bus -->
+  <rect x="160" y="160" width="60" height="30" rx="5" fill="#FFD400"/>
+  <circle cx="170" cy="195" r="6" fill="#2E2E2E"/>
+  <circle cx="210" cy="195" r="6" fill="#2E2E2E"/>
+
+  <!-- LED Screen -->
+  <rect x="280" y="100" width="50" height="35" fill="#0066FF" stroke="#1f1f1f" stroke-width="4"/>
+
+  <!-- Dots (locations) -->
+  <circle cx="110" cy="100" r="4" fill="#3B82F6"/>
+  <circle cx="190" cy="130" r="4" fill="#3B82F6"/>
+  <circle cx="250" cy="170" r="4" fill="#3B82F6"/>
+  <circle cx="310" cy="140" r="4" fill="#3B82F6"/>
+</svg>
