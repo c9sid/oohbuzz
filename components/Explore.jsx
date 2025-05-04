@@ -161,9 +161,6 @@ const Explore = () => {
                         onCityClick={toggleCity}
                         selectedCities={selectedCities}
                     />
-                    {/* <div className="mt-4 text-center text-sm text-gray-500">
-                        Click on cities to select/deselect locations
-                    </div> */}
                 </div>
 
                 {/* Selected Locations Section */}
@@ -199,7 +196,7 @@ const Explore = () => {
                         <span className="font-bold text-lg">{formatCurrency(calculateTotal())}</span>
                     </div>
 
-                    <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md transition-colors mt-4">
+                    <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md mt-4 hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out">
                         <a href='#estimate'>GET DETAILED ESTIMATE</a>
                     </button>
 

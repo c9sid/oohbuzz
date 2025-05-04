@@ -26,7 +26,7 @@ export default function Form() {
 
     return (
         <section id='ad-estimate' className='bg-blue-50 py-20'>
-            <div id='estimate' className="bg-white mx-5 p-8 rounded-xl shadow-md max-w-2xl md:mx-auto">
+            <div className="bg-white mx-5 p-8 rounded-xl shadow-md max-w-2xl md:mx-auto">
                 <div className="flex items-center justify-center mb-4">
                     <h2 className="text-3xl font-bold text-center">
                         📩 Get Your OOH Estimate Instantly
@@ -104,7 +104,7 @@ export default function Form() {
 
                     <button
                         type="submit"
-                        className="w-full bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700 transition"
+                        className="w-full bg-blue-600 text-white py-4 cursor-pointer rounded-md font-semibold hover:bg-blue-700 hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out"
                     >
                         SEND ESTIMATE NOW
                     </button>

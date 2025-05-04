@@ -8,7 +8,7 @@ const Hero = () => {
         >
             <div className="md:h-[90vh] container block md:flex items-center justify-between gap-12">
                 {/* Left content */}
-                <div className="flex-1 md:text-left py-20 md:py-0">
+                <div className="flex-1 md:text-left pt-32 pb-16 md:pt-0 md:pb-0">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                         India's Smartest Outdoor Ad Booking Platform
                     </h1>
@@ -18,20 +18,20 @@ const Hero = () => {
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                         <a
-                            href="#locations"
-                            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium"
+                            href="#ad-locations"
+                            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium text-center hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out"
                         >
                             EXPLORE LOCATIONS
                         </a>
                         <a
-                            href="#estimate"
-                            className="px-6 py-3 border border-blue-600 text-blue-600 hover:bg-blue-50 rounded-lg font-medium"
+                            href="#ad-estimate"
+                            className="px-6 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-100 rounded-lg font-medium text-center hover:-translate-y-0.5 transition-all delay-100 ease-in-out"
                         >
                             GET INSTANT ESTIMATE
                         </a>
                     </div>
 
-                    <div className="mt-10 text-gray-500 text-sm">
+                    <div className="mt-10 text-gray-500">
                         <p className="mb-2">Trusted by leading brands</p>
                         <div className="flex flex-wrap gap-6 font-semibold text-gray-400">
                             <span>BRAND A</span>
