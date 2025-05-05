@@ -197,7 +197,7 @@ const Explore = () => {
                     </div>
 
                     <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md mt-4 hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out">
-                        <a href='#estimate'>GET DETAILED ESTIMATE</a>
+                        <a href='#ad-estimate'>GET DETAILED ESTIMATE</a>
                     </button>
 
                     {cities.some(city => !selectedCities.includes(city.id)) && (
