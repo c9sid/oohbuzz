@@ -15,7 +15,7 @@ export default function Footer() {
                     </p>
                     <div className="flex flex-col space-y-2">
                         <p className="inline-flex gap-3 items-center"><HiOutlinePhone className="text-yellow-500 text-xl" /><a href="tel:+919876543210">+91 98765 43210</a></p>
-                        <p className="inline-flex gap-3 items-center"><HiOutlineMail className="text-yellow-500 text-xl" /> <a href="mailto:hello@ohhbuzz.com">hello@oohbuzz.com</a></p>
+                        <p className="inline-flex gap-3 items-center"><HiOutlineMail className="text-yellow-500 text-xl" /> <a href="mailto:info@ohhbuzz.com">info@oohbuzz.com</a></p>
                         <p className="inline-flex gap-3 items-center"><HiOutlineLocationMarker className="text-yellow-500 text-xl" /><a href="https://maps.google.com/">Mumbai, India</a></p>
                     </div>
                 </div>
@@ -24,12 +24,8 @@ export default function Footer() {
                 <div className="flex flex-col gap-3">
                     <h3 className="text-2xl font-bold mb-2">Quick Links</h3>
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:text-yellow-500">About Us</a></li>
-                        <li><a href="#" className="hover:text-yellow-500">Services</a></li>
-                        <li><a href="#" className="hover:text-yellow-500">Case Studies</a></li>
-                        <li><a href="#" className="hover:text-yellow-500">Pricing</a></li>
-                        <li><a href="#" className="hover:text-yellow-500">Privacy Policy</a></li>
-                        <li><a href="#" className="hover:text-yellow-500">Terms of Use</a></li>
+                        <li><Link href="/privacy-policy" className="hover:text-yellow-500">Privacy Policy</Link></li>
+                        <li><Link href="/terms-of-use" className="hover:text-yellow-500">Terms of Use</Link></li>
                     </ul>
                 </div>
 

@@ -1,5 +1,7 @@
 'use client';
+import { Loader } from 'lucide-react';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 export default function Form() {
     const [formData, setFormData] = useState({
@@ -10,6 +12,8 @@ export default function Form() {
         sendEstimate: true,
     });
 
+    const [loading, setLoading] = useState(false);
+
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFormData((prev) => ({
@@ -18,10 +22,50 @@ export default function Form() {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Add your logic to send data to backend/WhatsApp/Email
-        console.log('Form submitted:', formData);
+
+        const isValidPhone = /^\d{10,15}$/.test(formData.whatsapp);
+        const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email);
+
+        if (!isValidPhone) {
+            toast.warn("Enter a valid WhatsApp number.");
+            return;
+        }
+
+        if (!isValidEmail) {
+            toast.warn("Enter a valid email address.");
+            return;
+        }
+
+        setLoading(true);
+
+        try {
+            const res = await fetch('/api/send-email', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+
+            const result = await res.json();
+            if (result.success) {
+                toast.success("Estimate sent successfully!");
+
+                setFormData({
+                    fullName: '',
+                    companyName: '',
+                    email: '',
+                    whatsapp: '',
+                    sendEstimate: true,
+                });
+            } else {
+                toast.error(`Failed: ${result.error || 'Unknown error'}`);
+            }
+        } catch (error) {
+            toast.error("Network error. Please try again.");
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -91,6 +135,7 @@ export default function Form() {
                             />
                         </div>
                     </div>
+
                     <label className="flex items-center text-sm text-gray-700">
                         <input
                             type="checkbox"
@@ -104,9 +149,12 @@ export default function Form() {
 
                     <button
                         type="submit"
-                        className="w-full bg-blue-600 text-white py-4 cursor-pointer rounded-md font-semibold hover:bg-blue-700 hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out"
+                        disabled={loading}
+                        className={`w-full ${loading ? 'bg-blue-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 hover:shadow-blue-300 hover:-translate-y-0.5'} text-white py-4 cursor-pointer rounded-md font-semibold hover:shadow-md backdrop-blur-lg transition-all delay-100 ease-in-out`}
                     >
-                        SEND ESTIMATE NOW
+                        {loading ? (<div className='flex items-center justify-center gap-2'>
+                            <Loader className='animate-spin' /> Sending...
+                        </div>) : "SEND ESTIMATE NOW"}
                     </button>
                 </form>
             </div>
