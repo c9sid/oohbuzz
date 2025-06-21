@@ -1,9 +1,99 @@
-import React from 'react'
-
-const termsOfUse = () => {
+export default function TermsOfUse() {
     return (
-        <div className='container mx-auto p-5 my-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magni saepe dolore tenetur, necessitatibus deserunt sed asperiores? Blanditiis optio ratione ad voluptatum, hic ipsum sint porro distinctio dolore cum saepe reiciendis molestias minima aut temporibus accusamus autem atque doloremque eius! Odit earum est ratione voluptates cupiditate consequatur, modi autem amet natus voluptate tenetur magnam nisi nesciunt asperiores deleniti maiores obcaecati quaerat voluptatibus, laboriosam praesentium incidunt quam eos adipisci. Nobis, expedita at similique sunt officiis delectus voluptate qui maiores ullam tempore. Consectetur ratione necessitatibus saepe, inventore explicabo qui aliquid porro natus repellendus blanditiis consequuntur praesentium ullam magnam quia impedit. Pariatur, tenetur modi ad tempore sint illum natus quia sapiente numquam optio sed quidem culpa, non esse voluptate corrupti magnam sunt aliquid veniam! Magnam, accusamus! Ipsa sit rerum repudiandae. Ex dolores, quae necessitatibus, molestias blanditiis esse illo error sunt voluptates, amet incidunt illum quisquam beatae officiis eum est sed magni rerum unde doloribus porro in totam. Accusantium hic quisquam tenetur molestias quidem, enim natus quam error repellendus, quaerat blanditiis consectetur reprehenderit soluta, nam est ex cupiditate totam debitis eveniet ab! A consequatur quibusdam nostrum quo debitis numquam corrupti nemo optio corporis sequi eum, omnis dolor, sint, quos iure incidunt doloribus fugiat at eligendi soluta consectetur ratione fuga sed eius. Et, quo officiis! Sequi nihil placeat minima aliquid quas temporibus beatae dolore nemo suscipit quia maiores mollitia doloribus aut qui modi eveniet eum, perspiciatis necessitatibus corporis autem alias? Fuga, possimus enim. Cupiditate tempora ea quidem expedita molestiae eveniet, praesentium possimus, vitae at illo officia sed non voluptates. Quisquam reiciendis harum esse! Vero, consectetur enim amet eius ut unde excepturi maxime vel officiis natus recusandae delectus minima magni animi nulla porro, accusamus soluta sapiente placeat atque nobis? Dolorem incidunt modi accusamus provident debitis obcaecati quisquam, possimus ad, quia, delectus dolor! Eum obcaecati, in magnam consectetur voluptatem minus illo ad dolorem corporis unde quibusdam deserunt voluptate nobis laboriosam ab corrupti modi? Vel iure iusto tempore, eligendi vitae, doloremque deleniti consequuntur hic repellendus temporibus possimus odit saepe aperiam sint id asperiores voluptas, modi accusantium ex et architecto autem quisquam esse. Doloribus, animi quisquam facere exercitationem ratione ducimus ipsam libero quis nam minima sed, et numquam doloremque assumenda deserunt labore esse tenetur aliquid quidem nulla autem maiores expedita consequuntur inventore. Sapiente accusamus similique architecto quo expedita sed, aut provident quisquam, possimus praesentium nihil tempore blanditiis obcaecati aperiam quasi minus fugit autem laboriosam distinctio totam nisi dolores tenetur vitae! Asperiores, incidunt minus. Magnam minima quaerat impedit, aliquid rem, temporibus praesentium vel similique odit, ullam placeat obcaecati beatae ex culpa natus maxime reiciendis quos est perspiciatis id atque ratione! Pariatur alias ipsum repellendus deserunt voluptatum odio tempora eligendi consequuntur sit nulla quod odit adipisci laudantium optio accusantium doloremque quas, iste, nam mollitia asperiores. Accusantium blanditiis magni obcaecati sequi vitae recusandae pariatur officia earum sapiente maxime ipsum explicabo distinctio aliquid, eius rerum fuga. Nam illum, voluptatem praesentium nihil nesciunt, error amet dignissimos sed architecto laboriosam eos itaque doloremque, explicabo at cumque obcaecati ea unde. Impedit inventore architecto consequuntur. Molestiae corporis dolorum error eius, laboriosam eos. Corrupti ea mollitia repudiandae praesentium rerum, voluptas accusantium nobis laudantium a tenetur vel architecto voluptates officiis maxime quas totam iusto perferendis doloremque? Optio repellat commodi aut doloremque odit labore reprehenderit mollitia est aliquid sunt, voluptas nesciunt. Soluta cupiditate quis veniam fugiat quas fuga temporibus nihil magni sint illo autem ipsum sunt obcaecati cumque tenetur impedit eaque possimus optio, eligendi natus quaerat minima! Atque rem quod quidem mollitia ipsum maiores eveniet, quisquam ut eaque consequatur itaque ipsa hic recusandae tenetur iste reiciendis consectetur. Provident in, ipsa assumenda exercitationem tempora alias ex voluptatibus maxime perspiciatis neque non inventore corporis libero eligendi. Corrupti pariatur rerum quis consectetur eos laudantium tempora, doloribus consequuntur placeat ipsum adipisci doloremque autem ipsam blanditiis magni iusto debitis recusandae. Nemo reprehenderit modi ea voluptatum iste atque? Repudiandae a aliquam explicabo temporibus necessitatibus iste voluptatum sit sed tenetur perferendis consequuntur odio soluta dolor, quas corrupti quaerat nisi qui neque laudantium distinctio deleniti aspernatur suscipit. Placeat fugiat vitae, a iusto blanditiis aut quibusdam neque tempora atque numquam sint ratione aspernatur dolores. Minus officiis, dignissimos eum id ipsum ad beatae? Earum soluta inventore totam tempore veritatis voluptate velit exercitationem, explicabo eos aliquid excepturi nemo rem error officia laborum sint repudiandae quis sunt modi dolorum! Omnis doloribus aperiam maxime incidunt veniam vel quis aspernatur atque debitis fugiat officia eum, dolor est tempora at in enim quaerat. Commodi obcaecati ut laudantium rerum eos magni maxime et dolores eligendi consequuntur minima nesciunt blanditiis vitae neque quos aut atque quis nostrum assumenda, architecto a dolorem. Aliquid adipisci ut soluta impedit sed fugit hic, accusamus voluptatibus, ratione laborum aut sit eaque veritatis suscipit distinctio illo facilis provident sequi assumenda vitae. Cumque ipsa placeat, tenetur officiis voluptate repudiandae ad quae sint, eum sed et amet quam iste maiores nesciunt totam aut nisi? Voluptates beatae aperiam exercitationem quisquam culpa rerum, error quod, quo obcaecati, assumenda tempore dolorum ad. Iure aliquid consectetur asperiores necessitatibus, magnam possimus dignissimos sunt autem at culpa quo repudiandae praesentium amet officia voluptate ducimus delectus cumque, aliquam saepe ipsa ipsam! Adipisci perspiciatis ipsam ea tenetur consectetur facere cumque cupiditate impedit sed labore dolore dignissimos ipsum hic nobis nostrum, quis earum debitis qui maxime. Cumque sed perferendis sunt, ex ea cupiditate rem, qui in inventore facere labore animi officia molestias quas dolorem eos veniam! Voluptates rerum vero nam dicta dignissimos maiores! Ut dolore quia fugit repellendus, dolor voluptate sapiente accusantium quidem temporibus doloribus. Rem quia quasi recusandae, eius molestias sunt nulla et iure temporibus officia suscipit nesciunt deserunt ratione culpa delectus maxime, autem debitis non quos? Quo voluptas nostrum quidem, quasi nihil voluptatum aut est ratione dolores fuga laudantium itaque commodi voluptate asperiores fugit aliquid id. Aspernatur perspiciatis, dolor natus eligendi error quasi iusto tenetur nihil amet sunt excepturi quaerat accusantium esse laboriosam. Pariatur molestias quod ad eligendi maiores suscipit recusandae, in accusantium corrupti nulla inventore voluptatibus quos quasi a quis. Obcaecati, quam laboriosam. Nostrum voluptates cum perspiciatis inventore eum quos tempora aspernatur dignissimos quia ab in, doloribus blanditiis aliquid quam eaque.</div>
-    )
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-8 text-gray-800">
+            <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Terms of Use</h1>
+
+            <p className="mb-4 text-sm sm:text-base">
+                <strong>Effective Date:</strong> June 21, 2025<br />
+                <strong>Last Updated:</strong> June 21, 2025
+            </p>
+
+            <Section title="1. Acceptance of Terms">
+                <p>
+                    By accessing or using the website <a href="https://www.oohbuzz.com" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">https://www.oohbuzz.com</a> (the “Site”), you agree to be bound by these Terms of Use and our Privacy Policy. If you do not agree with any part of these terms, you must not use this website.
+                </p>
+            </Section>
+
+            <Section title="2. Use of the Website">
+                <List items={[
+                    "You must be at least 18 years old or visiting under the supervision of a parent or guardian.",
+                    "You agree not to use the site for any unlawful purpose or to violate any laws in your jurisdiction.",
+                    "You may not use the Site to transmit any viruses or malicious code.",
+                    "You agree not to copy, reproduce, or redistribute any part of the website without written permission from OOHBUZZ."
+                ]} />
+            </Section>
+
+            <Section title="3. Intellectual Property">
+                <p>
+                    All content on this Site—including text, graphics, logos, images, and software—is the property of OOHBUZZ or its content suppliers and is protected by intellectual property laws. You may not use, reproduce, or distribute any content from this Site without our prior written consent.
+                </p>
+            </Section>
+
+            <Section title="4. Third-Party Links">
+                <p>
+                    This website may contain links to third-party websites that are not owned or controlled by OOHBUZZ. We are not responsible for the content, policies, or practices of any third-party sites.
+                </p>
+            </Section>
+
+            <Section title="5. Disclaimer of Warranties">
+                <p>
+                    The Site and its content are provided “as is” and “as available” without any warranties of any kind, express or implied. We do not guarantee that the Site will be error-free, secure, or continuously available.
+                </p>
+            </Section>
+
+            <Section title="6. Limitation of Liability">
+                <p>
+                    To the fullest extent permitted by law, OOHBUZZ shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use of the Site.
+                </p>
+            </Section>
+
+            <Section title="7. Indemnification">
+                <p>
+                    You agree to indemnify, defend, and hold harmless OOHBUZZ and its affiliates from any claims, liabilities, damages, losses, or expenses arising out of your use of the Site or violation of these Terms.
+                </p>
+            </Section>
+
+            <Section title="8. Modifications to Terms">
+                <p>
+                    We reserve the right to modify these Terms of Use at any time. Changes will be posted on this page, and your continued use of the Site constitutes acceptance of the updated terms.
+                </p>
+            </Section>
+
+            <Section title="9. Governing Law">
+                <p>
+                    These Terms are governed by and construed in accordance with the laws of India, and you consent to the exclusive jurisdiction of the courts in India.
+                </p>
+            </Section>
+
+            <Section title="10. Contact Us">
+                <p>
+                    If you have any questions about these Terms of Use, please contact us at:
+                </p>
+                <p className="mt-2">
+                    📧 Email: <a href="mailto:info@oohbuzz.com" className="text-blue-600 underline">info@oohbuzz.com</a><br />
+                    🌐 Website: <a href="https://www.oohbuzz.com" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">https://www.oohbuzz.com</a>
+                </p>
+            </Section>
+        </div>
+    );
 }
 
-export default termsOfUse
+// Reusable Components
+function Section({ title, children }) {
+    return (
+        <section className="mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3">{title}</h2>
+            <div className="text-sm sm:text-base">{children}</div>
+        </section>
+    );
+}
+
+function List({ items }) {
+    return (
+        <ul className="list-disc pl-5 space-y-1 mb-4 text-sm sm:text-base">
+            {items.map((item, i) => (
+                <li key={i}>{item}</li>
+            ))}
+        </ul>
+    );
+}

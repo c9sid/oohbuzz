@@ -1,9 +1,132 @@
-import React from 'react'
-
-const privacyPolicy = () => {
+export default function PrivacyPolicy() {
     return (
-        <div className='container mx-auto p-5 my-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magni saepe dolore tenetur, necessitatibus deserunt sed asperiores? Blanditiis optio ratione ad voluptatum, hic ipsum sint porro distinctio dolore cum saepe reiciendis molestias minima aut temporibus accusamus autem atque doloremque eius! Odit earum est ratione voluptates cupiditate consequatur, modi autem amet natus voluptate tenetur magnam nisi nesciunt asperiores deleniti maiores obcaecati quaerat voluptatibus, laboriosam praesentium incidunt quam eos adipisci. Nobis, expedita at similique sunt officiis delectus voluptate qui maiores ullam tempore. Consectetur ratione necessitatibus saepe, inventore explicabo qui aliquid porro natus repellendus blanditiis consequuntur praesentium ullam magnam quia impedit. Pariatur, tenetur modi ad tempore sint illum natus quia sapiente numquam optio sed quidem culpa, non esse voluptate corrupti magnam sunt aliquid veniam! Magnam, accusamus! Ipsa sit rerum repudiandae. Ex dolores, quae necessitatibus, molestias blanditiis esse illo error sunt voluptates, amet incidunt illum quisquam beatae officiis eum est sed magni rerum unde doloribus porro in totam. Accusantium hic quisquam tenetur molestias quidem, enim natus quam error repellendus, quaerat blanditiis consectetur reprehenderit soluta, nam est ex cupiditate totam debitis eveniet ab! A consequatur quibusdam nostrum quo debitis numquam corrupti nemo optio corporis sequi eum, omnis dolor, sint, quos iure incidunt doloribus fugiat at eligendi soluta consectetur ratione fuga sed eius. Et, quo officiis! Sequi nihil placeat minima aliquid quas temporibus beatae dolore nemo suscipit quia maiores mollitia doloribus aut qui modi eveniet eum, perspiciatis necessitatibus corporis autem alias? Fuga, possimus enim. Cupiditate tempora ea quidem expedita molestiae eveniet, praesentium possimus, vitae at illo officia sed non voluptates. Quisquam reiciendis harum esse! Vero, consectetur enim amet eius ut unde excepturi maxime vel officiis natus recusandae delectus minima magni animi nulla porro, accusamus soluta sapiente placeat atque nobis? Dolorem incidunt modi accusamus provident debitis obcaecati quisquam, possimus ad, quia, delectus dolor! Eum obcaecati, in magnam consectetur voluptatem minus illo ad dolorem corporis unde quibusdam deserunt voluptate nobis laboriosam ab corrupti modi? Vel iure iusto tempore, eligendi vitae, doloremque deleniti consequuntur hic repellendus temporibus possimus odit saepe aperiam sint id asperiores voluptas, modi accusantium ex et architecto autem quisquam esse. Doloribus, animi quisquam facere exercitationem ratione ducimus ipsam libero quis nam minima sed, et numquam doloremque assumenda deserunt labore esse tenetur aliquid quidem nulla autem maiores expedita consequuntur inventore. Sapiente accusamus similique architecto quo expedita sed, aut provident quisquam, possimus praesentium nihil tempore blanditiis obcaecati aperiam quasi minus fugit autem laboriosam distinctio totam nisi dolores tenetur vitae! Asperiores, incidunt minus. Magnam minima quaerat impedit, aliquid rem, temporibus praesentium vel similique odit, ullam placeat obcaecati beatae ex culpa natus maxime reiciendis quos est perspiciatis id atque ratione! Pariatur alias ipsum repellendus deserunt voluptatum odio tempora eligendi consequuntur sit nulla quod odit adipisci laudantium optio accusantium doloremque quas, iste, nam mollitia asperiores. Accusantium blanditiis magni obcaecati sequi vitae recusandae pariatur officia earum sapiente maxime ipsum explicabo distinctio aliquid, eius rerum fuga. Nam illum, voluptatem praesentium nihil nesciunt, error amet dignissimos sed architecto laboriosam eos itaque doloremque, explicabo at cumque obcaecati ea unde. Impedit inventore architecto consequuntur. Molestiae corporis dolorum error eius, laboriosam eos. Corrupti ea mollitia repudiandae praesentium rerum, voluptas accusantium nobis laudantium a tenetur vel architecto voluptates officiis maxime quas totam iusto perferendis doloremque? Optio repellat commodi aut doloremque odit labore reprehenderit mollitia est aliquid sunt, voluptas nesciunt. Soluta cupiditate quis veniam fugiat quas fuga temporibus nihil magni sint illo autem ipsum sunt obcaecati cumque tenetur impedit eaque possimus optio, eligendi natus quaerat minima! Atque rem quod quidem mollitia ipsum maiores eveniet, quisquam ut eaque consequatur itaque ipsa hic recusandae tenetur iste reiciendis consectetur. Provident in, ipsa assumenda exercitationem tempora alias ex voluptatibus maxime perspiciatis neque non inventore corporis libero eligendi. Corrupti pariatur rerum quis consectetur eos laudantium tempora, doloribus consequuntur placeat ipsum adipisci doloremque autem ipsam blanditiis magni iusto debitis recusandae. Nemo reprehenderit modi ea voluptatum iste atque? Repudiandae a aliquam explicabo temporibus necessitatibus iste voluptatum sit sed tenetur perferendis consequuntur odio soluta dolor, quas corrupti quaerat nisi qui neque laudantium distinctio deleniti aspernatur suscipit. Placeat fugiat vitae, a iusto blanditiis aut quibusdam neque tempora atque numquam sint ratione aspernatur dolores. Minus officiis, dignissimos eum id ipsum ad beatae? Earum soluta inventore totam tempore veritatis voluptate velit exercitationem, explicabo eos aliquid excepturi nemo rem error officia laborum sint repudiandae quis sunt modi dolorum! Omnis doloribus aperiam maxime incidunt veniam vel quis aspernatur atque debitis fugiat officia eum, dolor est tempora at in enim quaerat. Commodi obcaecati ut laudantium rerum eos magni maxime et dolores eligendi consequuntur minima nesciunt blanditiis vitae neque quos aut atque quis nostrum assumenda, architecto a dolorem. Aliquid adipisci ut soluta impedit sed fugit hic, accusamus voluptatibus, ratione laborum aut sit eaque veritatis suscipit distinctio illo facilis provident sequi assumenda vitae. Cumque ipsa placeat, tenetur officiis voluptate repudiandae ad quae sint, eum sed et amet quam iste maiores nesciunt totam aut nisi? Voluptates beatae aperiam exercitationem quisquam culpa rerum, error quod, quo obcaecati, assumenda tempore dolorum ad. Iure aliquid consectetur asperiores necessitatibus, magnam possimus dignissimos sunt autem at culpa quo repudiandae praesentium amet officia voluptate ducimus delectus cumque, aliquam saepe ipsa ipsam! Adipisci perspiciatis ipsam ea tenetur consectetur facere cumque cupiditate impedit sed labore dolore dignissimos ipsum hic nobis nostrum, quis earum debitis qui maxime. Cumque sed perferendis sunt, ex ea cupiditate rem, qui in inventore facere labore animi officia molestias quas dolorem eos veniam! Voluptates rerum vero nam dicta dignissimos maiores! Ut dolore quia fugit repellendus, dolor voluptate sapiente accusantium quidem temporibus doloribus. Rem quia quasi recusandae, eius molestias sunt nulla et iure temporibus officia suscipit nesciunt deserunt ratione culpa delectus maxime, autem debitis non quos? Quo voluptas nostrum quidem, quasi nihil voluptatum aut est ratione dolores fuga laudantium itaque commodi voluptate asperiores fugit aliquid id. Aspernatur perspiciatis, dolor natus eligendi error quasi iusto tenetur nihil amet sunt excepturi quaerat accusantium esse laboriosam. Pariatur molestias quod ad eligendi maiores suscipit recusandae, in accusantium corrupti nulla inventore voluptatibus quos quasi a quis. Obcaecati, quam laboriosam. Nostrum voluptates cum perspiciatis inventore eum quos tempora aspernatur dignissimos quia ab in, doloribus blanditiis aliquid quam eaque.</div>
-    )
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-8 text-gray-800">
+            <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Privacy Policy</h1>
+
+            <p className="mb-4 text-sm sm:text-base">
+                <strong>Effective Date:</strong> June 21, 2025<br />
+                <strong>Last Updated:</strong> June 21, 2025
+            </p>
+
+            <p className="mb-6 text-sm sm:text-base">
+                Welcome to <strong>OOHBUZZ</strong> ("we", "our", or "us"). Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit our website
+                <a href="https://www.oohbuzz.com/" className="text-blue-600 underline mx-1" target="_blank" rel="noopener noreferrer">https://www.oohbuzz.com/</a>
+                (the "Site"). Please read this policy carefully to understand our views and practices regarding your personal data.
+            </p>
+
+            <Section title="1. Information We Collect">
+                <SubSection title="a. Information You Provide Directly">
+                    <List items={[
+                        "Name",
+                        "Email address",
+                        "Phone number",
+                        "Business information",
+                        "Any other information you voluntarily submit through contact forms or service inquiries"
+                    ]} />
+                </SubSection>
+                <SubSection title="b. Automatically Collected Information">
+                    <p className="mb-2">When you visit our website, we may automatically collect:</p>
+                    <List items={[
+                        "IP address",
+                        "Browser type",
+                        "Device type",
+                        "Pages visited",
+                        "Date and time of visit",
+                        "Referring URL"
+                    ]} />
+                    <p>This information is collected using cookies and similar tracking technologies.</p>
+                </SubSection>
+            </Section>
+
+            <Section title="2. How We Use Your Information">
+                <p>We may use the information we collect to:</p>
+                <List items={[
+                    "Respond to your inquiries and requests",
+                    "Send you service-related communications",
+                    "Improve the content, functionality, and usability of our website",
+                    "Analyze trends and site usage",
+                    "Comply with legal obligations"
+                ]} />
+            </Section>
+
+            <Section title="3. Cookies and Tracking Technologies">
+                <p className="mb-2">We use cookies to enhance your experience on our site. Cookies are small text files stored on your device that help us understand user behavior and improve our services.</p>
+                <p>You can choose to disable cookies through your browser settings, but some features of the website may not function properly.</p>
+            </Section>
+
+            <Section title="4. Sharing Your Information">
+                <p>We do <strong>not sell</strong> or rent your personal data. However, we may share your information in the following circumstances:</p>
+                <List items={[
+                    "With trusted third-party service providers who help us operate our website",
+                    "To comply with legal obligations or respond to lawful requests",
+                    "To protect our rights, safety, or property"
+                ]} />
+            </Section>
+
+            <Section title="5. Data Security">
+                <p>We take reasonable administrative, technical, and physical precautions to protect your personal information. However, no method of transmission over the internet or electronic storage is 100% secure.</p>
+            </Section>
+
+            <Section title="6. Your Rights">
+                <p>Depending on your location, you may have rights under applicable data protection laws, including:</p>
+                <List items={[
+                    "The right to access the personal data we hold about you",
+                    "The right to request correction or deletion of your data",
+                    "The right to object to or restrict certain data processing activities"
+                ]} />
+                <p>To exercise these rights, please contact us at
+                    <a href="mailto:info@oohbuzz.com" className="text-blue-600 underline ml-1">info@oohbuzz.com</a>.
+                </p>
+            </Section>
+
+            <Section title="7. Third-Party Links">
+                <p>Our website may contain links to other websites. We are not responsible for the privacy practices or the content of those third-party sites.</p>
+            </Section>
+
+            <Section title="8. Children's Privacy">
+                <p>Our website is not intended for children under the age of 13. We do not knowingly collect personal information from children.</p>
+            </Section>
+
+            <Section title="9. Changes to This Privacy Policy">
+                <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated “Last Updated” date. Your continued use of the Site after any changes means you agree to the revised policy.</p>
+            </Section>
+
+            <Section title="10. Contact Us">
+                <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
+                <p className="mt-2">
+                    📧 Email: <a href="mailto:info@oohbuzz.com" className="text-blue-600 underline">info@oohbuzz.com</a><br />
+                    🌐 Website: <a href="https://www.oohbuzz.com/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">https://www.oohbuzz.com/</a>
+                </p>
+            </Section>
+        </div>
+    );
 }
 
-export default privacyPolicy
+// Helper components
+function Section({ title, children }) {
+    return (
+        <section className="mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3">{title}</h2>
+            <div className="text-sm sm:text-base">{children}</div>
+        </section>
+    );
+}
+
+function SubSection({ title, children }) {
+    return (
+        <div className="mb-4">
+            <h3 className="text-lg sm:text-xl font-medium mb-2">{title}</h3>
+            <div>{children}</div>
+        </div>
+    );
+}
+
+function List({ items }) {
+    return (
+        <ul className="list-disc pl-5 space-y-1 mb-4">
+            {items.map((item, i) => (
+                <li key={i}>{item}</li>
+            ))}
+        </ul>
+    );
+}
