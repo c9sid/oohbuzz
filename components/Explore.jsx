@@ -1,62 +1,63 @@
 'use client';
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 // Simplified India SVG path data
-const IndiaMap = ({ onCityClick, selectedCities }) => {
-    return (
-        <svg viewBox="0 0 800 900" className="w-full h-full">
-            {/* India outline - accurate path */}
-            <path
-                d="M 400,100 
-                   C 450,100 500,120 550,150 
-                   C 600,200 620,250 630,300 
-                   C 640,350 650,400 630,450 
-                   C 600,500 580,550 550,600 
-                   C 520,650 500,700 480,750 
-                   C 450,800 400,850 350,800 
-                   C 300,750 250,700 200,650 
-                   C 150,600 120,550 100,500 
-                   C 80,450 70,400 60,350 
-                   C 50,300 40,250 30,200 
-                   C 40,150 50,100 400,100 Z
-                   M 350,200 C 360,210 370,220 380,230 
-                   M 420,300 C 430,310 440,320 450,330 
-                   M 300,400 C 310,410 320,420 330,430 
-                   M 250,500 C 260,510 270,520 280,530"
-                fill="#fff"
-                stroke="#D6D6DA"
-                strokeWidth="2"
-            />
+// const IndiaMap = ({ onCityClick, selectedCities }) => {
+//     return (
+//         <svg viewBox="0 0 800 900" className="w-full h-full">
+//             {/* India outline - accurate path */}
+//             <path
+//                 d="M 400,100 
+//                    C 450,100 500,120 550,150 
+//                    C 600,200 620,250 630,300 
+//                    C 640,350 650,400 630,450 
+//                    C 600,500 580,550 550,600 
+//                    C 520,650 500,700 480,750 
+//                    C 450,800 400,850 350,800 
+//                    C 300,750 250,700 200,650 
+//                    C 150,600 120,550 100,500 
+//                    C 80,450 70,400 60,350 
+//                    C 50,300 40,250 30,200 
+//                    C 40,150 50,100 400,100 Z
+//                    M 350,200 C 360,210 370,220 380,230 
+//                    M 420,300 C 430,310 440,320 450,330 
+//                    M 300,400 C 310,410 320,420 330,430 
+//                    M 250,500 C 260,510 270,520 280,530"
+//                 fill="#fff"
+//                 stroke="#D6D6DA"
+//                 strokeWidth="2"
+//             />
 
-            {/* City markers */}
-            {cities.map((city) => (
-                <g
-                    key={city.id}
-                    transform={`translate(${city.svgX},${city.svgY})`}
-                    onClick={() => onCityClick(city.id)}
-                    className="cursor-pointer hover:opacity-80 transition-opacity"
-                >
-                    <circle
-                        r="12"
-                        fill={selectedCities.includes(city.id) ? '#3B82F6' : '#9CA3AF'}
-                        stroke="#FFF"
-                        strokeWidth="2"
-                    />
-                    {selectedCities.includes(city.id) && (
-                        <text
-                            x="0"
-                            y="-15"
-                            textAnchor="middle"
-                            className="text-xl font-semibold fill-blue-500"
-                        >
-                            {city.name}
-                        </text>
-                    )}
-                </g>
-            ))}
-        </svg>
-    );
-};
+//             {/* City markers */}
+//             {cities.map((city) => (
+//                 <g
+//                     key={city.id}
+//                     transform={`translate(${city.svgX},${city.svgY})`}
+//                     onClick={() => onCityClick(city.id)}
+//                     className="cursor-pointer hover:opacity-80 transition-opacity"
+//                 >
+//                     <circle
+//                         r="12"
+//                         fill={selectedCities.includes(city.id) ? '#3B82F6' : '#9CA3AF'}
+//                         stroke="#FFF"
+//                         strokeWidth="2"
+//                     />
+//                     {selectedCities.includes(city.id) && (
+//                         <text
+//                             x="0"
+//                             y="-15"
+//                             textAnchor="middle"
+//                             className="text-xl font-semibold fill-blue-500"
+//                         >
+//                             {city.name}
+//                         </text>
+//                     )}
+//                 </g>
+//             ))}
+//         </svg>
+//     );
+// };
 
 const cities = [
     {
@@ -125,7 +126,7 @@ const cities = [
 ];
 
 const Explore = () => {
-    const [selectedCities, setSelectedCities] = useState([1]); // Default selected: Delhi, Bengaluru, Hyderabad
+    const [selectedCities, setSelectedCities] = useState([1, 2, 3, 4, 5]);
 
     const toggleCity = (cityId) => {
         setSelectedCities(prev =>
@@ -156,10 +157,14 @@ const Explore = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Map Section */}
-                <div className="bg-blue-50 p-4 rounded-lg shadow-sm h-[500px]">
-                    <IndiaMap
-                        onCityClick={toggleCity}
-                        selectedCities={selectedCities}
+                <div className="bg-blue-50 p-4 rounded-lg shadow-sm relative">
+                    <Image
+                        src="/india.png"
+                        alt="India Map"
+                        layout="responsive"
+                        width={800}
+                        height={600}
+                        className="object-contain w-full h-full"
                     />
                 </div>
 
@@ -167,7 +172,7 @@ const Explore = () => {
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                     <h3 className="text-lg font-semibold text-gray-700 mb-4">Selected Locations</h3>
 
-                    <div className="space-y-4 mb-6 max-h-80 overflow-y-auto">
+                    <div className="space-y-4 mb-6">
                         {cities.filter(city => selectedCities.includes(city.id)).map((city) => (
                             <div key={city.id} className="py-3 border-b border-gray-100 last:border-0">
                                 <div className="flex justify-between items-start">
@@ -185,7 +190,20 @@ const Explore = () => {
                                             {city.type} • {city.impressions} Impressions
                                         </p>
                                     </div>
-                                    <p className="font-semibold">{formatCurrency(city.price)}</p>
+                                    <div className="relative group w-fit select-none">
+                                        <p
+                                            className="font-semibold blur-sm opacity-70 pointer-events-none"
+                                            title="Price"
+                                        >
+                                            {formatCurrency(city.price)}
+                                        </p>
+                                        <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2
+                  bg-black text-white text-xs px-2 py-1 rounded opacity-0
+                  group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                                            Price
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         ))}
@@ -193,7 +211,20 @@ const Explore = () => {
 
                     <div className="flex justify-between py-4 border-t border-gray-200 mt-4">
                         <span className="font-semibold">Estimated Total:</span>
-                        <span className="font-bold text-lg">{formatCurrency(calculateTotal())}</span>
+                        <div className="relative group w-fit select-none">
+                            <span
+                                className="font-bold text-lg blur-sm opacity-70 pointer-events-none"
+                                title="Estimated Price"
+                            >
+                                {formatCurrency(calculateTotal())}
+                            </span>
+                            <div className="absolute text-center bottom-full mb-1 left-1/2 -translate-x-1/2
+                  bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0
+                  group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                                Estimated Price
+                            </div>
+                        </div>
+
                     </div>
 
                     <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md mt-4 hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out">
@@ -210,7 +241,7 @@ const Explore = () => {
                                         onClick={() => toggleCity(city.id)}
                                         className="px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
                                     >
-                                        {city.name} (+{formatCurrency(city.price)})
+                                        {city.name} ({`${city.impressions} Impressions`})
                                     </button>
                                 ))}
                             </div>
