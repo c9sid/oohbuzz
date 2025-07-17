@@ -34,10 +34,10 @@ const Hero = () => {
                     <div className="mt-10 text-gray-500">
                         <p className="mb-2">Trusted by leading brands</p>
                         <div className="flex flex-wrap gap-6 font-semibold text-gray-400">
-                            <span>BRAND A</span>
-                            <span>BRAND B</span>
-                            <span>BRAND C</span>
-                            <span>BRAND D</span>
+                            <span><Image className='rounded-sm' src={'/logos/iexpro.png'} width={100} height={40} alt='iexpro' /></span>
+                            <span><Image className='rounded-sm' src={'/logos/northwood.png'} width={100} height={40} alt='iexpro' /></span>
+                            <span><Image className='rounded-sm' src={'/logos/vas.png'} width={100} height={40} alt='iexpro' /></span>
+                            <span><Image className='rounded-sm' src={'/logos/precise.png'} width={100} height={40} alt='iexpro' /></span>
                         </div>
                     </div>
                 </div>
