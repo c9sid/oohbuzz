@@ -8,7 +8,7 @@ const Hero = () => {
         >
             <div className="md:h-[90vh] container block md:flex items-center justify-between gap-12">
                 {/* Left content */}
-                <div className="flex-1 md:text-left pt-32 pb-16 md:pt-0 md:pb-0">
+                <div className="flex-1 text-center md:text-left pt-32 pb-16 md:pt-0 md:pb-0">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                         India's Smartest Outdoor Ad Booking Platform
                     </h1>
@@ -32,13 +32,20 @@ const Hero = () => {
                     </div>
 
                     <div className="mt-10 text-gray-500">
-                        <p className="mb-2">Trusted by leading brands</p>
-                        <div className="flex flex-wrap gap-6 font-semibold text-gray-400">
-                            <span><Image className='rounded-sm' src={'/logos/iexpro.png'} width={100} height={40} alt='iexpro' /></span>
-                            <span><Image className='rounded-sm' src={'/logos/northwood.png'} width={100} height={40} alt='iexpro' /></span>
-                            <span><Image className='rounded-sm' src={'/logos/vas.png'} width={100} height={40} alt='iexpro' /></span>
-                            <span><Image className='rounded-sm' src={'/logos/precise.png'} width={100} height={40} alt='iexpro' /></span>
+                        <p className="mb-5">Trusted by leading brands</p>
+                        <div className="overflow-hidden whitespace-nowrap">
+                            <div className="flex gap-4 animate-marquee">
+                                {[...Array(1)].flatMap(() => ([
+                                    <span key={`iexpro-${Math.random()}`}><Image className='rounded-sm' src={'/logos/iexpro.png'} width={200} height={80} alt='iexpro' /></span>,
+                                    <span key={`northwood-${Math.random()}`}><Image className='rounded-sm' src={'/logos/northwood.png'} width={200} height={80} alt='northwood' /></span>,
+                                    <span key={`vas-${Math.random()}`}><Image className='rounded-sm' src={'/logos/vas.png'} width={200} height={80} alt='vas' /></span>,
+                                    <span key={`precise-${Math.random()}`}><Image className='rounded-sm' src={'/logos/precise.png'} width={200} height={80} alt='precise' /></span>,
+                                    <span key={`iexpro-${Math.random()}`}><Image className='rounded-sm' src={'/logos/timespro.png'} width={200} height={80} alt='timespro' /></span>,
+                                ]))}
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
 
