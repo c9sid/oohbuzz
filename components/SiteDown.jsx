@@ -25,7 +25,7 @@ export default function SiteDown() {
         {/* Subtitle */}
         <p className="text-gray-300 mb-8 text-sm">
           This website is currently unavailable.  
-          Please contact the developer to restore access.
+          Please contact the developer to restore it.
         </p>
 
         {/* Restore Button */}
